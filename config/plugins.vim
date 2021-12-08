@@ -1,20 +1,26 @@
 call plug#begin("~/.vim/plugged")
- Plug 'dracula/vim'
+ " View
  Plug 'ryanoasis/vim-devicons'
- Plug 'SirVer/ultisnips'
- Plug 'honza/vim-snippets'
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
+ " Navigation & search
  Plug 'scrooloose/nerdtree'
  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
  Plug 'junegunn/fzf.vim'
+ Plug 'mhinz/vim-startify'
+ " Dev
+ Plug 'SirVer/ultisnips' " snippet engine
+ Plug 'honza/vim-snippets' " snippet files
  Plug 'airblade/vim-rooter'
  Plug 'preservim/nerdcommenter'
- Plug 'mhinz/vim-startify'
- Plug 'digitaltoad/vim-pug'
  Plug 'neoclide/coc.nvim', {'branch': 'release'}
- Plug 'vim-airline/vim-airline'
- Plug 'vim-airline/vim-airline-themes'
  Plug 'ap/vim-css-color'
- Plug 'mhinz/vim-signify'
+ Plug 'digitaltoad/vim-pug'
+ " Git
  Plug '907th/vim-auto-save'
+ Plug 'mhinz/vim-signify'
  Plug 'tpope/vim-fugitive'
+ Plug 'jreybert/vimagit'
+ Plug 'junegunn/gv.vim'
+ Plug 'sodapopcan/vim-twiggy'
 call plug#end()
