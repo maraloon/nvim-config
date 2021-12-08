@@ -13,6 +13,19 @@ nnoremap <leader>g :Rg<CR>
 "nnoremap <leader>m :Marks<CR>
 noremap <leader>t :call OpenTerminal()<CR>
 
+nmap <leader>gn <plug>(signify-next-hunk)
+nmap <leader>gp <plug>(signify-prev-hunk)
+nmap <leader>gN 9999<leader>gn
+nmap <leader>gP 9999<leader>gp
+nmap <leader>gh :SignifyHunk<CR>
+nmap <leader>gu :SignifyHunkUndo<CR>
+nmap <leader>gt :SignifyToggle<CR>
+nmap <leader>gl :SignifyToggleHighlight<CR>
+nmap <leader>gr :SignifyRefresh<CR>
+nmap <leader>gd :SignifyDiff<CR>
+nmap <leader>gf :SignifyFold<CR>
+
+
 " move between panes to left/bottom/top/right
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j

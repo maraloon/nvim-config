@@ -14,4 +14,7 @@ call plug#begin("~/.vim/plugged")
  Plug 'vim-airline/vim-airline'
  Plug 'vim-airline/vim-airline-themes'
  Plug 'ap/vim-css-color'
+ Plug 'mhinz/vim-signify'
+ Plug '907th/vim-auto-save'
+ Plug 'tpope/vim-fugitive'
 call plug#end()
