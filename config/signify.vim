@@ -1,5 +1,3 @@
-set updatetime=100
-
 let g:signify_sign_add    = '██' 
 let g:signify_sign_change = '██'
 let g:signify_sign_delete = '__'

@@ -1,10 +1,7 @@
 call plug#begin("~/.vim/plugged")
- " View
- Plug 'ryanoasis/vim-devicons'
- Plug 'vim-airline/vim-airline'
- Plug 'vim-airline/vim-airline-themes'
  " Navigation & search
  Plug 'scrooloose/nerdtree'
+ Plug 'Xuyuanp/nerdtree-git-plugin'
  Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
  Plug 'junegunn/fzf.vim'
  Plug 'mhinz/vim-startify'
@@ -23,4 +20,10 @@ call plug#begin("~/.vim/plugged")
  Plug 'jreybert/vimagit'
  Plug 'junegunn/gv.vim'
  Plug 'sodapopcan/vim-twiggy'
+ " View
+ Plug 'ryanoasis/vim-devicons'
+ Plug 'vim-airline/vim-airline'
+ Plug 'vim-airline/vim-airline-themes'
+ " Apps
+ Plug 'nvim-neorg/neorg' | Plug 'nvim-lua/plenary.nvim'
 call plug#end()

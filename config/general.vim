@@ -27,3 +27,4 @@ set termguicolors
 set splitright
 set splitbelow
 set sessionoptions-=blank   " https://github.com/preservim/nerdtree/issues/745#issuecomment-568509155
+set updatetime=100
